@@ -5,7 +5,7 @@ This repository contains a Python script for logging OpenAI chat completion call
 ## Overview
 
 This project provides a client for making chat completion requests to the OpenAI API and logs the details of each request and response to a SQLite database. The main features include:
-- Logs input and output token counts and request time for each chat completion
+- Logs input and output token counts and request time for each chat completion.
 - Thread-safe logging using Python's `threading.Lock`.
 - Configuration via a `.env` file.
 - Functionality to export logs from the SQLite database to a JSONL file.
